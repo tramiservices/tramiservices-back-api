@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tramiservices.api", "tramiservices.api\tramiservices.api.csproj", "{87A7B203-7AAD-4634-B5CA-877C7F6E88F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tramiservices.domain", "tramiservices.domain\tramiservices.domain.csproj", "{96F3F537-7BED-4B67-AC74-2CD077350C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tramiservices.infrastructure", "tramiservices.infrastructure\tramiservices.infrastructure.csproj", "{ADA58CB3-4A87-459A-A51C-B93128A3CAF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tramiservices.models", "tramiservices.models\tramiservices.models.csproj", "{5E2447D3-0C2C-4F4F-BE04-D6AD8EA10AC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{87A7B203-7AAD-4634-B5CA-877C7F6E88F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87A7B203-7AAD-4634-B5CA-877C7F6E88F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87A7B203-7AAD-4634-B5CA-877C7F6E88F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F3F537-7BED-4B67-AC74-2CD077350C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F3F537-7BED-4B67-AC74-2CD077350C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F3F537-7BED-4B67-AC74-2CD077350C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F3F537-7BED-4B67-AC74-2CD077350C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA58CB3-4A87-459A-A51C-B93128A3CAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA58CB3-4A87-459A-A51C-B93128A3CAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA58CB3-4A87-459A-A51C-B93128A3CAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA58CB3-4A87-459A-A51C-B93128A3CAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2447D3-0C2C-4F4F-BE04-D6AD8EA10AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2447D3-0C2C-4F4F-BE04-D6AD8EA10AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2447D3-0C2C-4F4F-BE04-D6AD8EA10AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2447D3-0C2C-4F4F-BE04-D6AD8EA10AC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
